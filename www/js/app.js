@@ -24,25 +24,45 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
   .state('cursos',{
-      views:{
-          'cursos':{
-              templateUrl:'cursos.html',
-              
-          }
-      }
+      url:'/cursos',
+      views:{   
+          cursos:{
+              templateUrl:'template/cursos.html',
+                 }
+            }
       
   })
-  
+  $stateProvider
   .state('biblioteca',{
-      views:{
-          'biblioteca':{
-              templateUrl:'biblioteca.html',
-              
-          }
-      }
+      url:'/biblioteca',
+      views:{   
+          cursos:{
+              templateUrl:'template/biblioteca.html',
+                 }
+            }
       
   })
-  
+   $stateProvider
+  .state('noticias',{
+      url:'/noticias',
+      views:{   
+          cursos:{
+              templateUrl:'template/noticias.html',
+                 }
+            }
+      
+  })
+   $stateProvider
+  .state('eventos',{
+      url:'/eventos',
+      views:{   
+          cursos:{
+              templateUrl:'template/eventos.html',
+                 }
+            }
+      
+  })
+   
   
 
     .state('app', {

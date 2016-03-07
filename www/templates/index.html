@@ -1,8 +1,20 @@
 <ion-view view-title="Académica">
-    <body>
-        <div ui-view="cursos"></div>
-        <div ui-view="biblioteca"></div>
-        <div ui-view="noticias"></div>
-        <div ui-view="eventos"></div>
-    </body>
-  </ion-view>
+   <ion-tabs class="tabs-positive tabs-icon-top">
+
+            <ion-tab title="Cursos" icon-on="ion-ios-compose" icon-off="ion-ios-compose-outline">
+                <!-- Tab 1 content -->
+            </ion-tab>
+
+            <ion-tab title="Biblioteca" icon-on="ion-ios-book" icon-off="ion-ios-book-outline">
+                <!-- Tab 2 content -->
+            </ion-tab>
+
+            <ion-tab title="Noticias" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline">
+                <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="Eventos" icon-on="ion-ios-calendar" icon-off="ion-ios-calendar-outline">
+                <!-- Tab 4 content -->
+            </ion-tab>
+
+    </ion-tabs>
+</ion-view>
