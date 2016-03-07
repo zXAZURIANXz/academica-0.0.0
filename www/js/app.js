@@ -27,37 +27,37 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url:'/cursos',
       views:{   
           cursos:{
-              templateUrl:'template/cursos.html',
+              templateUrl:'templates/cursos.html',
                  }
             }
       
   })
-  $stateProvider
+  
   .state('biblioteca',{
       url:'/biblioteca',
       views:{   
           cursos:{
-              templateUrl:'template/biblioteca.html',
+              templateUrl:'templates/biblioteca.html',
                  }
             }
       
   })
-   $stateProvider
+   
   .state('noticias',{
       url:'/noticias',
       views:{   
           cursos:{
-              templateUrl:'template/noticias.html',
+              templateUrl:'templates/noticias.html',
                  }
             }
       
   })
-   $stateProvider
+  
   .state('eventos',{
       url:'/eventos',
       views:{   
           cursos:{
-              templateUrl:'template/eventos.html',
+              templateUrl:'templates/eventos.html',
                  }
             }
       

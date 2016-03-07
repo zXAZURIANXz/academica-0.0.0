@@ -1,19 +1,25 @@
-<ion-view view-title="Académica">
+<ion-view view-title="Académica" >
+    <h1 class="title">"Académica"</h1>
+
    <ion-tabs class="tabs-positive tabs-icon-top">
 
-            <ion-tab title="Cursos" icon-on="ion-ios-compose" icon-off="ion-ios-compose-outline">
-                <!-- Tab 1 content -->
+            <ion-tab title="Cursos" icon-on="ion-ios-compose" icon-off="ion-ios-compose-outline" ui-sref="cursos">
+                <!-- Tab 1 cursos -->
+                <ion-nav-view name="cursos"></ion-nav-view>
             </ion-tab>
 
-            <ion-tab title="Biblioteca" icon-on="ion-ios-book" icon-off="ion-ios-book-outline">
-                <!-- Tab 2 content -->
+            <ion-tab title="Biblioteca" icon-on="ion-ios-book" icon-off="ion-ios-book-outline" ui-sref="biblioteca">
+                <!-- Tab 2 biblioteca -->
+                <ion-nav-view name="biblioteca"></ion-nav-view>
             </ion-tab>
 
-            <ion-tab title="Noticias" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline">
-                <!-- Tab 3 content -->
+            <ion-tab title="Noticias" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="noticias">
+                <!-- Tab 3 noticias -->
+                <ion-nav-view name="noticias"></ion-nav-view>
             </ion-tab>
-            <ion-tab title="Eventos" icon-on="ion-ios-calendar" icon-off="ion-ios-calendar-outline">
-                <!-- Tab 4 content -->
+            <ion-tab title="Eventos" icon-on="ion-ios-calendar" icon-off="ion-ios-calendar-outline" ui-sref="eventos">
+                <!-- Tab 4 eventos -->
+                <ion-nav-view name="eventos"></ion-nav-view>
             </ion-tab>
 
     </ion-tabs>
